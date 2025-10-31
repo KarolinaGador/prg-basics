@@ -1,4 +1,5 @@
 import math
-h=1,68
-d = 3.57 * math.sqr h
+h=float(input("podaj swój wzrost w metrach: "))
+d = 3.57 * math.sqrt(h)
+print("twoja odległośc od horyzontu to: ", d)
 
