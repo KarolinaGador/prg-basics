@@ -6,7 +6,7 @@
 # 
 number1 = int(input("Enter first number: "))
 number2 = int(input ("Enter second number: "))
-operator = int(input("Enter operator(+/-/*//)"))
+operator = input("Enter operator(+ / - / * / / ): ")
 
 if operator == "+":
     result = number1 + number2
