@@ -3,6 +3,5 @@
 #
 
 for i in range(1,11):
-  result =int(1/i)
-
-print(f'1/{} = {result}')
+  
+  print(f'1/{i} = {1/i}')
