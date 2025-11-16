@@ -12,20 +12,12 @@ while countdown > 5:
     print(countdown)
     countdown -= 1
     time.sleep(1)  # Wait for 1 second
+
+    days = ['five', 'four', 'three', 'two', 'one']
     while countdown <= 5 and countdown > 0:
-     print('five')
-     countdown -= 1
-     time.sleep(1)
-     print('four')
-     countdown -= 1
-     time.sleep(1)
-     print('three')
-     countdown -= 1
-     time.sleep(1)
-     print('two')
-     countdown -= 1
-     time.sleep(1)
-     print('one')
-     countdown -= 1
-    time.sleep(1)
+     for days in days:
+        print(days)
+        countdown -= 1
+        time.sleep(1)
+
 print("Time's up!")
