@@ -1,0 +1,19 @@
+###
+# Calculates the sum of the digits in a number
+#
+def sum_digits(number):
+    absnumber = abs(number)
+    stringnumber = str(absnumber)
+    i=0
+    for digit in stringnumber:
+        res = int(digit)
+        i = i + res
+
+    return i
+
+
+           
+
+any_number = int(input('Enter integer number: '))
+result = sum_digits(any_number)
+print(f'The sum of the digits in the number {any_number} is {result}')
