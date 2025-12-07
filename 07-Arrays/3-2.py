@@ -14,4 +14,4 @@ arr11 = [0 for i in range(1,16)]
 arr12 = [i for i in range(1,31)]
 arr13 = [random.randint(0,1) for i in range(0,21)]
 arr14 = [[False for i in range(2)] for i in range(5)]
-print(arr14)
+print(arr3)
