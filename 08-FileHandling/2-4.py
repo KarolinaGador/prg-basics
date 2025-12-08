@@ -10,8 +10,8 @@ position_file = 'software_engineer.txt'
 job_title = 'Software Engineer'
 
 # write selected employees to a file
-with ... as ...:
-   with ... as ...:
-      for line in ...:
-         if job_title in ...:
-            ... .write(...)
+with open(employees_file, 'r') as rfile:
+   with open(position_file, 'w') as file:
+      for line in rfile:
+         if job_title in line:
+            file.write(line)

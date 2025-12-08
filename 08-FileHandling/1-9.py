@@ -7,8 +7,9 @@ file_name = 'it_company.txt'
 
 # Position
 job_title = 'Software Engineer'
-
+counter = 0
 with open('it_company.csv', 'r') as file:
-   for line in file:
+   for line in (file):
       if job_title in line:
-         print (line)
+         counter= counter +1
+         print (counter, line)

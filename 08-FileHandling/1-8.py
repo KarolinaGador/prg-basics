@@ -7,5 +7,5 @@ def read_from_file(name):
 file_content = read_from_file('pets.txt')
 file_lines = file_content.split()
 num = len(file_lines)
-print(num)
+print(file_content, num)
    
