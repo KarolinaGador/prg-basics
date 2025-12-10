@@ -23,5 +23,7 @@ person['Gender'] = "Male"
 #Adds a new hobby: 'bicycle'
 person["hobby"].append("Bicycle")
 #Adds work phone to existing phones: '313131444'
-
+person["phone"]['work phone'] = "313131444"
 #Displays the entire contents of the dictionary (iterate over dictionary items)
+for key, val in person.items():
+  print(key, val)

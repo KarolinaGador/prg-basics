@@ -25,6 +25,23 @@ while not cards.empty():
     card = cards.get()
     print(card)
 
+cards.put(2)
+cards.put(3)
+cards.put(7)
+cards.put(4)
+cards.put(1)
+cards.put(9)
+cards.put(8)
+sum =0
+while cards.qsize()>5:
+    sum = sum + cards.get()
+print(sum)    
+sum2=0
+while not cards.empty():
+    sum2 = sum2 + cards.get()
+print(sum2)    
+
+
 """
 Note the order of the printed elements.
 The last added element is printed first.
