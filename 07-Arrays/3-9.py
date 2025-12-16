@@ -1,6 +1,6 @@
 def f(ar1, ar2):
     
-    if len(ar1)==len(ar2):
+    if len(ar1)!=len(ar2):
         return False
     for i in range(len(ar1)):
             if ar1[i] != ar2[i]:
