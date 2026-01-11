@@ -8,6 +8,4 @@ countries = [
 
 
 for i in countries:
-    for val in i.values():
-        print(f'{val} ', end="" )
-    print()    
+    print(i)    

@@ -7,18 +7,10 @@ class Student():
 
 def main():
     # object creation based on the class
-    student1 = Student()
-    student2 = Student()
-    student3 = Student()
-    student1.name = "Dominic"
-    student1.age = 19
-    student1.gender = "Male"
-    student2.name = "Olivia"
-    student2.age = 21
-    student2.gender = "Female"
-    student3.name = "Alici"
-    student3.age = 23
-    student3.gender = "Female"
+    student1 = Student("Dominic", 19, "Male")
+    student2 = Student("Olivia", 21, "Female")
+    student3 = Student("Alici", 23,"Female")
+    
 
 
     print('LIST OF STUDENTS')
