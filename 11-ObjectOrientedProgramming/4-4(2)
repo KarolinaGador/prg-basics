@@ -1,0 +1,14 @@
+import ebok
+
+def main():
+    cos = ebok.ebok("lala","ktos",21,5,"closed")
+    cos.open()
+    cos.stat()
+    cos.read()
+    cos.read()
+    cos.stat()
+    cos.close()
+    cos.read()
+
+if __name__ == "__main__":
+    main()
